@@ -32,7 +32,7 @@ namespace contosobikesweb
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello ContosoBikes Customers from Rob and his 3 dogs!!");
+                    await context.Response.WriteAsync("Hello ContosoBikes Customers from Rodney and his dog cody");
                 });
             });
         }
